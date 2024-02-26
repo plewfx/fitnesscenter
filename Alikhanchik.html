@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фитнес-зал "Fitness Center"</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .class-schedule {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .class-schedule-item {
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            background-color: #ecf0f1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Фитнес-зал "Fitness Center"</h1>
+        <img src="https://img.freepik.com/premium-vector/gym-logo-fitness-logo_279597-374.jpg" height="200" width="200">
+    </header>
+
+    <nav>
+        <a href="#home">Главная</a> |
+        <a href="#classes">Расписание</a> |
+        <a href="#trainers">Тренеры</a> |
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <section id="home">
+        <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Добро пожаловать в фитнес-зал "Fitness Center"</h2>
+        <p>Мы предоставляем широкий спектр услуг для достижения ваших фитнес-целей.</p>
+        <img src="https://img.freepik.com/premium-photo/gym-nobody-empty-fitness-club_266732-12687.jpg" height="300" width="2000"> 
+    </section>
+
+    <section id="classes">
+        <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Расписание занятий</h2>
+        <div class="class-schedule">
+            <div class="class-schedule-item">
+                <h3>Йога</h3>
+                <p>Понедельник и среда<br>18:00 - 19:00</p>
+                <img src="https://lh3.googleusercontent.com/proxy/gDyFPMOFf0NU_Sp6hcYifwWfxrFwMVHtK4T27IaYhgLXbfhx0wY4vuD9ItDkp0vJbGT4Ft5PpSRNLmNisQ">
+            </div>
+            <div class="class-schedule-item">
+                <h3>Кардио</h3>
+                <p>Вторник и четверг<br>17:30 - 18:30</p>
+                <img src="https://donsport.ru/upload/iblock/2f2/p31m3u4nbjedh1z9z1o2sxaj60qz63l9.jpg" height="960" width="500">
+            </div>
+            <div class="class-schedule-item">
+                <h3>Силовые тренировки</h3>
+                <p>Пятница и суббота<br>19:00 - 20:00</p>
+                <img src="data:image/jpeg;base64,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" height="960" width="500">
+            </div>
+        </div>
+    </section>
+
+    <section id="trainers">
+        <h2>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Наши тренеры</h2>
+        <img src="https://zpravda.ru/resize/shd/images/uploads/news/2020/3/5/5a4d6fb121506d9ae46ab9a52cace331.jpg" height="200" width="420">
+        <div style="color: red;">
+            Нурмагомедов Абылай, 28 лет, стаж 6 лет
+        </div>
+        <img src="https://fitness-cccp.ru/wp-content/uploads/2018/02/TZ-Arutyunyan-Karen-683x1024.jpg" height="200" width="420">
+        <div style="color: red;">
+            Григорий Васильевич, 47 лет, стаж 13 лет
+        </div>
+        <div>
+            Рекомендуемые видео от наших тренеров:
+            <a href="https://www.youtube.com/watch?v=fG-p3lgTOa8">
+                "Жиросжигающие упражнения"
+            </a>
+            <a href="https://www.youtube.com/watch?v=zXLwlRGfCMQ">
+                "Качание рук дома"
+            </a>
+            <a href="https://www.youtube.com/watch?v=H21pTB9nJ7I">
+                "Полезные упражнения для ног"
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="color: blue;">Контакты       <strong>Телефон:</strong> +7 (777) 185-62-50,  +7 (778) 700-04-36</h2>
+    </section>
+    <footer>
+        <p>&copy; 2024 Фитнес-зал "Fitness Center". Все права защищены.</p>
+    </footer>
+    <button id="scroll-down-btn">Прокрутить вниз</button>
+
+  <style>
+    body {
+        background-image: url(https://kartinki.pics/uploads/posts/2021-07/1626345540_45-kartinkin-com-p-trenazhernii-zal-fon-krasivo-60.jpg); height: 1000; width: 2000;
+    }
+  </style>
+</html>
